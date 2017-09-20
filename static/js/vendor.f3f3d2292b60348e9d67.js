@@ -1,6 +1,6 @@
 /*!
 VueLayers
-Vue 2.0 components to work with OpenLayers
+Vue 2 components to work with OpenLayers
 
 @package vuelayers
 @author Vladimir Vershinin <ghettovoice@gmail.com>
