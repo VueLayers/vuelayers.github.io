@@ -9,12 +9,11 @@
 
 `vl-layer-vector-tile` component is a part of **VectorTileLayer** module:
 
-- **ES6**: https://unpkg.com/vuelayers/lib/_esm/vector-tile-layer/
-- **CommonJS**: https://unpkg.com/vuelayers/lib/vector-tile-layer/
+- **ES6**: https://unpkg.com/vuelayers/lib/vector-tile-layer/
 
 ## Usage
 
-Below is example taken from [OpenLayers Examples page](http://openlayers.org/en/v4.6.5/examples/vector-tile-info.html?q=vectortile)
+Below is example taken from [OpenLayers Examples page](http://openlayers.org/en/latest/examples/vector-tile-info.html?q=vectortile)
 and implemented in Vue.
 
 <vuep template="#usage-example"></vuep>

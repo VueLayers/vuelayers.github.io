@@ -10,8 +10,7 @@ component to setup `zoom`, `center`, `projection` and other view related propeti
 
 `vl-map` component is a part of **Map** module:
 
-- **ES6**: https://unpkg.com/vuelayers/lib/_esm/map/
-- **CommonJS**: https://unpkg.com/vuelayers/lib/map/
+- **ES6**: https://unpkg.com/vuelayers/lib/map/
 
 ## Usage
 
@@ -124,11 +123,11 @@ keyboard events on map.
 - **Default**: `undefined`
 
 Projection of input/output plain coordinates in properties, events and etc.
-See [Global data projection](quickstart#global-data-projection) setup guide.
+See [Global data projection](/docs/quickstart.md#global-data-projection) setup guide.
 
 ## Events
 
-Pointer events that emits [`ol.MapBrowserEvent`](https://openlayers.org/en/v4.6.5/apidoc/ol.MapBrowserEvent.html)
+Pointer events that emits [`ol.MapBrowserEvent`](http://openlayers.org/en/latest/apidoc/module-ol_MapBrowserEvent-MapBrowserEvent.html)
 
 - `click`
 - `dblclick`
@@ -136,7 +135,7 @@ Pointer events that emits [`ol.MapBrowserEvent`](https://openlayers.org/en/v4.6.
 - `pointerdrag`
 - `pointermove` 
 
-Other events that emits [`ol.MapEvent`](https://openlayers.org/en/v4.6.5/apidoc/ol.MapEvent.html)
+Other events that emits [`ol.MapEvent`](http://openlayers.org/en/latest/apidoc/module-ol_MapEvent-MapEvent.html)
 
 - `movestart`
 - `moveend`

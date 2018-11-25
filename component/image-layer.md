@@ -9,15 +9,14 @@ raster source, like [`vl-source-image-static`](/docs/component/image-static-sour
 
 `vl-layer-image` component is a part of **ImageLayer** module:
 
-- **ES6**: https://unpkg.com/vuelayers/lib/_esm/image-layer/
-- **CommonJS**: https://unpkg.com/vuelayers/lib/image-layer/
+- **ES6**: https://unpkg.com/vuelayers/lib/image-layer/
 
 ## Usage
 
 Example below shows how to use `vl-layer-image` component together with [`vl-source-image-static`](/docs/component/image-static-source.md)
 to render custom image on the map. The map view is configured with a custom projection that translates image coordinates 
 directly into map coordinates. Information about `olExt` usage mini library you can find [here](/docs/misc/ol-ext.md).   
-Taken from OpenLayers [Static Image Example](http://openlayers.org/en/v4.6.5/examples/static-image.html) 
+Taken from OpenLayers [Static Image Example](http://openlayers.org/en/latest/examples/static-image.html) 
 
 <vuep template="#usage-example"></vuep>
 
@@ -41,7 +40,7 @@ Taken from OpenLayers [Static Image Example](http://openlayers.org/en/v4.6.5/exa
   let extent = [0, 0, ...size]
   // create custom projection for image 
   // NOTE: VueLayers.olExt available only in UMD build
-  // in ES/CJS build it should be imported from 'vuelayers/lib/_esm/ol-ext' or 'vuelayers/lib/ol-ext' respectively
+  // in ES build it should be imported explicitly from 'vuelayers/lib/ol-ext'
   let customProj = VueLayers.olExt.createProj({
     code: 'xkcd-image',
     units: 'pixels',

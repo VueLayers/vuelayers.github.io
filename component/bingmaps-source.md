@@ -1,19 +1,15 @@
 # vl-source-bingmaps
 
-> Layer source for [BingMaps API](https://www.bing.com/maps)
+> Layer source for [Bing Maps API](https://www.bing.com/maps)
 
-`vl-source-bingmaps` adds ability to display tile data from BingMaps service. To use
+`vl-source-bingmaps` adds ability to display tile data from Bing Maps. To use
 this source you should get **API key** at https://www.bingmapsportal.com.
 
 ## Versions
 
 `vl-source-bingmaps` is a part of **BingmapsSource** module:
 
-- **ES6**: https://unpkg.com/vuelayers/lib/_esm/bingmaps-source/
-- **CommonJS**: https://unpkg.com/vuelayers/lib/bingmaps-source/
-
-!> **NOTE** The old name `vl-source-bing-maps` is deprecated and currently is an alias to the new name `vl-source-bingmaps`.  
-The old  name will be removed later with the next major release.
+- **ES6**: https://unpkg.com/vuelayers/lib/bingmaps-source/
 
 ## Usage
 

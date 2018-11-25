@@ -6,13 +6,10 @@
 use it for example for style building in style functions, or creating and registering custom projections,
 coordinates projection transforming and more. 
 
-It is published as separate sub-package in **ES6**/**CommonJS** version and should be imported explicitly:
+It is published as separate sub-package in **ES6** version and should be imported explicitly:
 
 ```js
-// ES 6
-import * as olExt from 'vuelayers/lib/_esm/ol-ext'
-// CommonJS
-const olExt = require('vuelayers/lib/ol-ext')
+import * as olExt from 'vuelayers/lib/ol-ext'
 
 let myProj = olExt.createProj({
   code: 'xkcd-image',
@@ -25,7 +22,6 @@ olExt.addProj(myProj)
 or you can use only part of helpers
 
 ```js
-// ES6 only
 import { createProj, addProj } from 'vuelayers/lib/ol-ext'
 
 let myProj = createProj({
