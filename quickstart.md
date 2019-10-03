@@ -5,17 +5,17 @@ For in-browser usage, there is a full standalone **UMD** bundle provided.
 
 ## Installation
 
-!> VueLayers works with Vue.js **2.3+** and OpenLayers **5.0+**
+!> VueLayers works with Vue.js **^2.3** and OpenLayers **^5.0**
 
 ### NPM
 
-Install latest **stable version**
+Install current **stable version**
 
 ```bash
 npm install vuelayers
 ``` 
 
-The upcoming **next version** can be installed by adding `@next` tag
+The upcoming **next version** can be installed by `next` tag
 
 ```bash
 npm install vuelayers@next
@@ -26,18 +26,15 @@ npm install vuelayers@next
 Recommended: [unpkg](https://unpkg.com/)  
 You can browse the source of the npm package at [unpkg.com/vuelayers/](https://unpkg.com/vuelayers/).
 
-!> OpenLayers isn't included in the package, so you should add it yourself.
-
 ```html
 <!-- include Vue -->
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
-<!-- include OpenLayers -->
-<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v5.3.0/build/ol.js"></script>
 <!-- include UMD VueLayers build -->
 <link rel="stylesheet" href="https://unpkg.com/vuelayers/lib/style.css">
 <script src="https://unpkg.com/vuelayers/lib/index.umd.js"></script>
 
 <script>
+  // All VueLayers components now globally installed
   // ...
 </script>
 ```
@@ -77,7 +74,7 @@ modules: [
 
 ### Build from source
 
-!> Node **v6+** is required
+!> Node **v8** is required
 
 ```bash
 # clone the repo
@@ -121,7 +118,8 @@ Vue.use(Geoloc)
 
 By default all components accept coordinates in map view projection (**EPSG:3857** by default)
 but you can bind all components to accept and return coordinates in another projection with
-`dataProjection` global option or with [`data-projection`](component/map.md#data-projection) property on the `vl-map` component. 
+`dataProjection` global option or with [`data-projection`](component/map.md#data-projection) property on the `vl-map` 
+component. 
 
 This rule applies only for plain coordinates, GeoJSON encoded features or 
 geometries. It works only as a thin projection transform layer between Vue and OpenLayers therefore
