@@ -23,8 +23,8 @@ See the [Quick start](quickstart.md "Quick start guide") for more details how to
 
 | VueLayers         | Branch                                                           | Vue      | OpenLayers | NPM tag   |
 |:------------------|:-----------------------------------------------------------------|:---------|:-----------|:----------|
-| Current **0.11**  | [v0.11.x](https://github.com/ghettovoice/vuelayers/tree/v0.11.x) | **^2.3** | **^6.0**   | `latest`  |
-| Next **0.12**     | [master](https://github.com/ghettovoice/vuelayers/tree/master)   | **^2.3** | **^5.0**   | `next`    |
+| Current **0.11**  | [v0.11.x](https://github.com/ghettovoice/vuelayers/tree/v0.11.x) | **^2.3** | **^5.0**   | `latest`  |
+| Next **0.12**     | [master](https://github.com/ghettovoice/vuelayers/tree/master)   | **^2.3** | **^6.0**   | `next`    |
 | Previous **0.10** | [v0.10.x](https://github.com/ghettovoice/vuelayers/tree/v0.10.x) | **^2.0** | **^4.0**   | `v0.10`   |
 
 ## Features
