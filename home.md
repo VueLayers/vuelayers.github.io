@@ -23,9 +23,9 @@ See the [Quick start](quickstart.md "Quick start guide") for more details how to
 
 | VueLayers         | Branch                                                           | Vue      | OpenLayers | NPM tag   |
 |:------------------|:-----------------------------------------------------------------|:---------|:-----------|:----------|
-| Current **0.11**  | [v0.11.x](https://github.com/ghettovoice/vuelayers/tree/v0.11.x) | **^2.3** | **^5.0**   | `latest`  |
-| Next **0.12**     | [master](https://github.com/ghettovoice/vuelayers/tree/master)   | **^2.3** | **^6.0**   | `next`    |
-| Previous **0.10** | [v0.10.x](https://github.com/ghettovoice/vuelayers/tree/v0.10.x) | **^2.0** | **^4.0**   | `v0.10`   |
+| Current **0.12**  | [master](https://github.com/ghettovoice/vuelayers/tree/master)   | **^2.3** | **^6.0**   | `latest`  |
+| Previous **0.11** | [v0.11.x](https://github.com/ghettovoice/vuelayers/tree/v0.11.x) | **^2.3** | **^5.0**   | `0.11.x`  |
+| Previous **0.10** | [v0.10.x](https://github.com/ghettovoice/vuelayers/tree/v0.10.x) | **^2.0** | **^4.0**   | `0.10.x`  |
 
 ## Features
 
@@ -37,7 +37,7 @@ See the [Quick start](quickstart.md "Quick start guide") for more details how to
 ## Requirements
 
 - [Vue](https://vuejs.org/) version **^2.3**
-- [OpenLayers](https://openlayers.org/) version **^5.0**
+- [OpenLayers](https://openlayers.org/) version **^6.0**
 
 ## Live demo
 
@@ -45,5 +45,5 @@ Check out [VueLayers Demo application](demo.md "VueLayers Demo application") to 
 
 ## License
 
-Licensed under the **MIT** (c) 2017-2019, [Vladimir Vershinin](https://ghettovoice.github.io/)  
+Licensed under the **MIT** (c) 2017-2020, [Vladimir Vershinin](https://ghettovoice.github.io/)  
 Based on [Vue](https://vuejs.org/ "Vue.js Homepage") and [OpenLayers](https://openlayers.org/ "OpenLayers Homepage")
