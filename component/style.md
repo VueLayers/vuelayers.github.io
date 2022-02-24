@@ -1,15 +1,15 @@
-# vl-style-box
+# vl-style
 
 > A container for a collection of styles
 
-Use it inside [`vl-feature`](/docs/component/feature.md), [`vl-layer-vector`](/docs/component/vector-layer.md) or [`vl-interaction-draw`](/docs/component/draw-interaction.md) to give custom styles to vector features.
+Use it inside [`vl-feature`](/docs/component/feature.md) or [`vl-layer-vector`](/docs/component/vector-layer.md) to give custom styles to vector features.
 
 ## ES6 Module
 
 ```javascript
-import { StyleBox } from 'vuelayers'
+import { Style } from 'vuelayers'
 
-Vue.use(StyleBox)
+Vue.use(Style)
 ```
 
 ## Usage
@@ -34,12 +34,12 @@ Styling a feature.
             :coordinates="[12.492442,41.890170]"
           ></vl-geom-point>
 
-          <vl-style-box>
+          <vl-style>
             <vl-style-circle :radius="20">
               <vl-style-fill color="white"></vl-style-fill>
               <vl-style-stroke color="red"></vl-style-stroke>
             </vl-style-circle>
-          </vl-style-box>
+          </vl-style>
         </vl-feature>
       </vl-layer-vector>
     </vl-map>
